@@ -1,0 +1,124 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path@Penn</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-left">9:41</div>
+        <div class="status-right">
+            <div class="signal-bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="wifi">
+                <img src="assets/wifi.png" alt="WiFi" width="16" height="16">
+            </div>
+            <div class="battery">
+                <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                    <rect x="0" y="2" width="20" height="8" rx="2" stroke="currentColor" stroke-width="1" fill="currentColor"/>
+                    <rect x="20" y="4" width="2" height="4" rx="1" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        Path@Penn
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="nav-tabs">
+        <a href="#" class="nav-tab">PROGRAMS</a>
+        <a href="#" class="nav-tab active">COURSES</a>
+        <a href="#" class="nav-tab">CARTS</a>
+        <a href="#" class="nav-tab">DEGREE AUDIT</a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <!-- Search Section -->
+        <div class="search-section">
+            <h2>Search Courses</h2>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search by course code, title, or instructor">
+                <div class="search-icon">
+                    <img src="assets/search.png" alt="Search" width="16" height="16">
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommended Courses -->
+        <div class="section-header">
+            <h2 class="section-title">Recommended For You</h2>
+            <a href="#" class="see-more">See more</a>
+        </div>
+
+        <div class="course-cards">
+            <div class="course-card">
+                <div class="course-code">CIS 1210</div>
+                <div class="course-title">Programming Languages and Techniques II</div>
+                <div class="course-category category-computing">MAJOR - COMPUTING</div>
+                <div class="course-info">
+                    <div class="info-row">
+                        <div class="info-icon">i</div>
+                        <span>Credits: 1.0</span>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-icon">i</div>
+                        <span>1 lecture, 16 recitation</span>
+                    </div>
+                    <div class="info-row">
+                        <span>Schedule Varies by Section</span>
+                    </div>
+                </div>
+                <div class="seats-open">Seats Open</div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-code">STAT 4300</div>
+                <div class="course-title">Probability</div>
+                <div class="course-category category-math">MATH/SCIENCE</div>
+                <div class="course-info">
+                    <div class="info-row">
+                        <div class="info-icon">i</div>
+                        <span>Credits: 1.0</span>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-icon">i</div>
+                        <span>4 lecture</span>
+                    </div>
+                    <div class="info-row">
+                        <span>Schedule Varies by Section</span>
+                    </div>
+                </div>
+                <div class="few-seats">Few Seats Left</div>
+            </div>
+        </div>
+
+        <!-- My Carts -->
+        <div class="section-header">
+            <h2 class="section-title">My Carts</h2>
+        </div>
+
+        <div class="schedule-container">
+            <div class="schedule-card">
+                <div class="schedule-title">SCHEDULE 01</div>
+                <img src="assets/schedule1.png" alt="Schedule 01" class="schedule-image">
+            </div>
+
+            <div class="schedule-card">
+                <div class="schedule-title">SCHEDULE 02</div>
+                <img src="assets/schedule2.png" alt="Schedule 02" class="schedule-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
